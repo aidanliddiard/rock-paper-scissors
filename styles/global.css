@@ -46,6 +46,24 @@ img {
     height: 100px;
 }
 
+#game {
+    display: grid;
+    grid-template-rows: 40px, 40px, 250px;
+    grid-template-columns: 250px, 100px, 250px;
+    grid-template-areas: 
+        'p p p'
+        'player h4 computer'
+        'player-pics h3 computer-pics';
+    
+}
+
+span {
+    font-size: 30px;
+}
+
+h3 {
+    text-decoration: underline;
+}
 
 footer {
     background-color: var(--chrome-background-opaque);

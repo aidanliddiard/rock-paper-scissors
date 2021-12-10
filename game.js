@@ -1,24 +1,24 @@
 export function score(player, computer) {
     if (player === computer) {
-        return 'tie';
+        return 'Tie :/';
     }
     if (player === 'rock' && computer === 'paper') {
-        return 'computer is the winner';
+        return 'Computer is the winner :(';
     }
     if (player === 'rock' && computer === 'scissors') {
-        return 'player is the winner';
+        return 'Player is the winner!!!!! :)';
     }
     if (player === 'paper' && computer === 'rock') {
-        return 'player is the winner';
+        return 'Player is the winner!!!!! :)';
     }
     if (player === 'paper' && computer === 'scissors') {
-        return 'computer is the winner';
+        return 'Computer is the winner :(';
     }
     if (player === 'scissors' && computer === 'rock') {
-        return 'computer is the winner';
+        return 'Computer is the winner :(';
     }
     if (player === 'scissors' && computer === 'paper') {
-        return 'player is the winner';
+        return 'Player is the winner!!!!! :)';
     }
 }
 
