@@ -20,10 +20,7 @@ body {
     /* layout */
     display: grid;
     grid-template-rows: 80px 1fr auto;
-
 }
-
-
 
 header {
     display: flex;
@@ -35,6 +32,18 @@ header {
 
 main {
     overflow-y: auto;
+    margin: 10px;
+}
+
+button {
+    width: 150px;
+    height: 150px;
+    padding: 15px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
 }
 
 

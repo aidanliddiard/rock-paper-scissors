@@ -1,5 +1,6 @@
 // IMPORT MODULES under test here:
 import { score } from '../game.js';
+import { generateThrow } from '../game.js';
 
 const test = QUnit.test;
 
@@ -92,3 +93,4 @@ test('player scissors, computer scissors, so tie', (expect) => {
 
     expect.equal(actual, expected);
 });
+
